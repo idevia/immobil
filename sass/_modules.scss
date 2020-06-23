@@ -1,0 +1,11 @@
+.hero {
+  min-height: calc(100vh - 58px);
+  overflow: hidden;
+  .hero-img {
+    z-index: -1;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+}
