@@ -1,0 +1,83 @@
+.contact-services {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  ul {
+    list-style: none;
+    li {
+      font-size: 18px;
+    }
+    li::before {
+      content: "";
+      width: 10px;
+      height: 10px;
+      background-color: $danger;
+      border-radius: 50%;
+      color: $danger;
+      font-weight: bold;
+      display: inline-block;
+      margin-left: 110px;
+      margin-right: 15px;
+    }
+  }
+}
+
+.contact-merits__card {
+  height: 300px;
+  border: 1px solid $lightGrey;
+  padding: 30px !important;
+  box-sizing: border-box;
+  border-radius: 6px;
+  margin-top: 30px;
+  h5 {
+    margin: 0;
+  }
+}
+
+.contact-merits__button .btn {
+  padding: 10px 100px;
+}
+
+@media screen and (max-width: 480px) {
+  h2 {
+    font-size: 24px !important;
+  }
+
+  h3 {
+    font-size: 18px !important;
+  }
+
+  .contact-services {
+    ul {
+      li {
+        font-size: 12px;
+      }
+      li::before {
+        width: 8px;
+        height: 8px;
+        margin-left: -25px;
+        margin-right: 20px;
+      }
+    }
+  }
+
+  .contact-merits__card {
+    height: auto;
+    padding: 20px !important;
+    img {
+      width: 60px;
+      height: 60px;
+    }
+    h5 {
+      font-size: 14px;
+    }
+    p {
+      font-size: 12px;
+    }
+  }
+
+  .contact-merits__button .btn {
+    padding: 10px 70px;
+  }
+}

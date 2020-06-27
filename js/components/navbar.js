@@ -2,7 +2,7 @@ const navbarTemplate = /*html*/ `
 <nav class="navbar navbar-expand-lg navbar-light mt-5">
   <div class="container">
     <a class="navbar-brand" href="#">
-      <img src="./assets/img/logo.png" alt="ImmobilApp" height="30" />
+      <img src="/assets/img/logo.png" alt="ImmobilApp" height="30" />
     </a>
     <button
       class="navbar-toggler"

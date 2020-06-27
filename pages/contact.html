@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Material Design for Bootstrap fonts and icons -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Material+Icons"
+    />
+
+    <link rel="stylesheet" href="../css/main.css" />
+
+    <title>ImmobilApp - CONTATTI</title>
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav-bar></nav-bar>
+    <!-- /navbar -->
+
+    <!-- main -->
+    <main class="py-5 mt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 col-sm-12 d-flex justify-content-start align-items-center">
+            <section class="d-flex flex-column">
+              <h2 class="font-weight-bold text-center text-md-left">
+                Il nuovo mercato immobiliare
+              </h2>
+              <a href="#" class="btn btn-danger mt-3">Contatti</a>
+            </section>
+          </div>
+          <div class="col-md-5 offset-md-3 col-sm-12 pt-5 pt-md-0">
+            <img src="/assets/img/img-o3.svg" />
+          </div>
+        </div>
+
+        <div class="py-5 my-5">
+          <h3 class="font-weight-bold text-center">Offri un servizio innovativo</h3>
+          <div class="contact-services mt-4">
+            <ul>
+              <li>invia ai tuoi clienti le offerte in formato digitale</li>
+              <li>fornisci loro l’accesso per consultarli in app ImmobilApp</li>
+              <li>sorprendi il tuo cliente con un servizio esclusivo</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="py-3 my-3 py-md-5 my-md-5">
+          <h3 class="font-weight-bold text-center">
+            Perchè diventare un’agenzia ImmobilApp?
+          </h3>
+          <div class="contact-merits pt-5">
+            <div class="row">
+              <div class="col-md-6">
+                <contact-card
+                  imgSrc="/assets/img/icon-01.svg"
+                  title="INCREMENTA IL TUO <br />
+              PORTAFOGLIO DI IMMOBILI"
+                  content="Accedi ad un database di annunci pubblicati solo da privati, nella tua
+              area di competenza. Gli annunci saranno verificati e pronti per la
+              trattativa. Non perdere più tempo a ricercare immobili online"
+                ></contact-card>
+              </div>
+              <div class="col-md-6">
+                <contact-card
+                  imgSrc="/assets/img/icon-02.svg"
+                  title="MIGLIORA LA TUA REPUTAZIONE"
+                  content="ImmobilApp offre alle sue agenzie degli strumenti innovativi, con i quali sarà possibile interagire e coordinarsi con proprietari di immobili e possibili clienti interessati Riposiziona la tua agenzia sul mercato digitale!"
+                ></contact-card>
+              </div>
+              <div class="col-md-6">
+                <contact-card
+                  imgSrc="/assets/img/icon-03.svg"
+                  title="PERSONALIZZA LA TUA OFFERTA"
+                  content="Presenta gli annunci immobiliari con il tuo logo ed i tuoi riferimenti, in formato digitale e tramite un’ App dedicata. Offri un’esperienza personalizzata ai tuoi clienti.. Non hai bisogno di aggiornarti: ci pensa ImmobilApp!"
+                ></contact-card>
+              </div>
+              <div class="col-md-6">
+                <contact-card
+                  imgSrc="/assets/img/icon-04.svg"
+                  title="AUMENTA LE TUE TRATTATIVE"
+                  content="Cambia il lavoro della tua agenzia! Non ricercare annunci online e non sprecare tempo utile per visite e appuntamenti. Usufruisci di un database di annunci pronti per la vendita e fai crescere il tuo business."
+                ></contact-card>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-merits__button text-center">
+          <a href="#" class="btn btn-danger">Accedi</a>
+        </div>
+      </div>
+    </main>
+    <!-- /main -->
+
+    <!-- footer -->
+    <site-footer></site-footer>
+    <!-- /footer -->
+
+    <!-- JS SCRIPTS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+    <!-- WEB COMPONENTS POLYFILLS -->
+    <script src="/node_modules/@webcomponents/webcomponentsjs/webcomponents-bundle.js"></script>
+
+    <!-- COMPONENTS -->
+    <script type="module" src="/js/components/Navbar.js"></script>
+    <script type="module" src="/js/components/Footer.js"></script>
+    <script type="module" src="/js/components/ContactCard.js"></script>
+  </body>
+</html>

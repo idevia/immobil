@@ -2,7 +2,7 @@ const footerTemplate = /*html*/ `
 <div class="footer">
 <div class="container">
   <div class="footer__logo">
-    <img src="./assets/img/logo.png" alt="ImmobilApp" height="30" />
+    <img src="/assets/img/logo.png" alt="ImmobilApp" height="30" />
   </div>
   <div class="row py-4">
     <div class="col-md-3 col-sm-12">
