@@ -21,9 +21,9 @@
     <title>ImmobilApp</title>
   </head>
   <body>
-    <!-- .navbar -->
-    <script src="./js/components/navbar.js"></script>
-    <!-- /.navbar -->
+    <!-- navbar -->
+    <nav-bar></nav-bar>
+    <!-- /navbar -->
 
     <!-- hero -->
     <section class="section hero d-flex align-items-center">
@@ -33,8 +33,10 @@
           <div class="item">
             <div class="row align-items-center">
               <div class="col-md-4">
-                <h2 class="font-weight-bold">Risparmia, rilassati.</h2>
-                <p>Pubblica il tuo annuncio e lascia fare ad Immobilapp</p>
+                <h1 class="font-weight-bold">Risparmia, rilassati.</h1>
+                <p class="slider-subtitle">
+                  Pubblica il tuo annuncio e lascia fare ad Immobilapp
+                </p>
                 <a href="#" class="btn btn-danger px-5">Scopri di più</a>
               </div>
               <div class="col-md-8">
@@ -45,8 +47,10 @@
           <div class="item">
             <div class="row align-items-center">
               <div class="col-md-4">
-                <h2 class="font-weight-bold">Risparmia, rilassati.</h2>
-                <p>Pubblica il tuo annuncio e lascia fare ad Immobilapp</p>
+                <h1 class="font-weight-bold">Risparmia, rilassati.</h1>
+                <p class="subtitle-subtitle">
+                  Pubblica il tuo annuncio e lascia fare ad Immobilapp
+                </p>
                 <a href="#" class="btn btn-danger px-5">Scopri di più</a>
               </div>
               <div class="col-md-8">
@@ -57,15 +61,28 @@
         </div>
       </div>
     </section>
+    <!-- /hero -->
 
+    <!-- footer -->
+    <site-footer></site-footer>
+    <!-- /footer -->
+
+    <!-- JS SCRIPTS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
     <script src="./js/owl.carousel.min.js"></script>
     <script>
-      $('.owl-carousel').owlCarousel({
+      $(".owl-carousel").owlCarousel({
         autoPlay: true,
-        autoWidth: true
+        autoWidth: true,
       })
     </script>
+
+    <!-- WEB COMPONENTS POLYFILLS -->
+    <script src="node_modules/@webcomponents/webcomponentsjs/webcomponents-bundle.js"></script>
+
+    <!-- COMPONENTS -->
+    <script type="module" src="./js/components/Navbar.js"></script>
+    <script type="module" src="./js/components/Footer.js"></script>
   </body>
 </html>
