@@ -1,8 +1,12 @@
 const footerTemplate = /*html*/ `
 <div class="footer">
-<div class="container">
-  <div class="footer__logo">
-    <img src="/assets/img/logo.png" alt="ImmobilApp" height="30" />
+  <div class="container">
+  <div class="row">
+    <div class="col-12 text-center">
+      <div class="footer__logo">
+        <img src="/assets/img/logo.png" alt="ImmobilApp" height="30" />
+      </div>
+    </div>
   </div>
   <div class="row py-4">
     <div class="col-md-3 col-sm-12">
@@ -69,4 +73,4 @@ class Footer extends HTMLElement {
   }
 }
 
-window.customElements.define("site-footer", Footer)
+window.customElements.define('site-footer', Footer)
