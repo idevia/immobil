@@ -51,7 +51,8 @@ class Navbar extends HTMLElement {
     this.innerHTML = navbarTemplate
 
     const navbarLinks = this.querySelectorAll(".navbar-nav .nav-link")
-    const linkLocation = window.location.href.toString().split("/")[3].split(".")[0]
+    const linkLocationArr = window.location.href.toString().split("/")
+    const linkLocation = linkLocationArr[linkLocationArr.length - 1].split(".")[0]
 
     switch (linkLocation) {
       case "pricing":
