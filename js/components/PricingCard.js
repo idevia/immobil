@@ -17,6 +17,9 @@ class PricingCard extends HTMLElement {
     super()
     this.innerHTML = pricingCard
 
+    if (this.getAttribute("center"))
+      this.querySelector(".pricing__card").style.zoom = "1.2"
+
     this.querySelector(".pricing__card").style.backgroundColor = this.getAttribute(
       "cardBg"
     )

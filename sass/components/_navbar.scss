@@ -1,5 +1,6 @@
 .nav-item {
   text-transform: uppercase;
+  position: relative;
   margin-left: 20px;
   font-weight: bold;
   a {
@@ -9,4 +10,20 @@
     padding: 10px 35px;
     font-size: 14px;
   }
+}
+
+.link-active {
+  color: $main !important;
+}
+
+.link-active::after {
+  content: "";
+  width: 8px;
+  height: 8px;
+  position: absolute;
+  background-color: $main;
+  border-radius: 50%;
+  left: 50%;
+  top: 35px;
+  transform: translateX(-50%);
 }

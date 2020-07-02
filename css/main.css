@@ -4,6 +4,10 @@ img {
   max-width: 100%;
 }
 
+.cursor-pointer {
+  cursor: pointer;
+}
+
 .hero {
   min-height: calc(100vh - 58px);
   overflow: hidden;
@@ -272,6 +276,7 @@ img {
 
 .nav-item {
   text-transform: uppercase;
+  position: relative;
   margin-left: 20px;
   font-weight: bold;
 }
@@ -283,6 +288,22 @@ img {
 .nav-item .btn {
   padding: 10px 35px;
   font-size: 14px;
+}
+
+.link-active {
+  color: #0b469b !important;
+}
+
+.link-active::after {
+  content: "";
+  width: 8px;
+  height: 8px;
+  position: absolute;
+  background-color: #0b469b;
+  border-radius: 50%;
+  left: 50%;
+  top: 35px;
+  transform: translateX(-50%);
 }
 
 /*!

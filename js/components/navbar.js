@@ -25,7 +25,7 @@ const navbarTemplate = /*html*/ `
           <a class="nav-link" href="#">Agenzie</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Pricing</a>
+          <a href="/pricing.html" class="nav-link" href="#">Pricing</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Chi siamo</a>
@@ -34,7 +34,7 @@ const navbarTemplate = /*html*/ `
           <a class="nav-link" href="#">Blog</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Contatti</a>
+          <a href="/contact.html" class="nav-link" href="#">Contatti</a>
         </li>
 
         <li class="nav-item ml-4">
@@ -49,6 +49,20 @@ class Navbar extends HTMLElement {
   constructor() {
     super()
     this.innerHTML = navbarTemplate
+
+    const navbarLinks = this.querySelectorAll(".navbar-nav .nav-link")
+    const linkLocation = window.location.href.toString().split("/")[3].split(".")[0]
+
+    switch (linkLocation) {
+      case "pricing":
+        navbarLinks[2].classList.add("link-active")
+        break
+      case "contact":
+        navbarLinks[5].classList.add("link-active")
+        break
+      default:
+        break
+    }
   }
 }
 
