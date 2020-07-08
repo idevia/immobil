@@ -23,9 +23,8 @@ const footerTemplate = /*html*/ `
       <h6 class="font-weight-bold">Our Company</h6>
       <div class="footer__list">
         <ul>
-          <li>About</li>
-          <li>Product</li>
-          <li>Portfolio</li>
+          <li><a href="./about.html">About</a></li>
+          <li><a href="./faq.html">FAQ</a></li>
           <li>Career</li>
           <li>Blog</li>
         </ul>

@@ -19,22 +19,22 @@ const navbarTemplate = /*html*/ `
     <div class="collapse navbar-collapse" id="mainNav">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item">
-          <a class="nav-link" href="#">Proprietari</a>
+          <a class="nav-link" href="./pricing.html">Proprietari</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Agenzie</a>
+          <a class="nav-link" href="./agency.html">Agenzie</a>
         </li>
         <li class="nav-item">
-          <a href="/pricing.html" class="nav-link" href="#">Pricing</a>
+          <a href="./pricing.html" class="nav-link">Pricing</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Chi siamo</a>
+          <a class="nav-link" href="./about.html">Chi siamo</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Blog</a>
         </li>
         <li class="nav-item">
-          <a href="/contact.html" class="nav-link" href="#">Contatti</a>
+          <a href="./contact.html" class="nav-link">Contatti</a>
         </li>
 
         <li class="nav-item ml-4">
@@ -50,16 +50,16 @@ class Navbar extends HTMLElement {
     super()
     this.innerHTML = navbarTemplate
 
-    const navbarLinks = this.querySelectorAll(".navbar-nav .nav-link")
-    const linkLocationArr = window.location.href.toString().split("/")
-    const linkLocation = linkLocationArr[linkLocationArr.length - 1].split(".")[0]
+    const navbarLinks = this.querySelectorAll('.navbar-nav .nav-link')
+    const linkLocationArr = window.location.href.toString().split('/')
+    const linkLocation = linkLocationArr[linkLocationArr.length - 1].split('.')[0]
 
     switch (linkLocation) {
-      case "pricing":
-        navbarLinks[2].classList.add("link-active")
+      case 'pricing':
+        navbarLinks[2].classList.add('link-active')
         break
-      case "contact":
-        navbarLinks[5].classList.add("link-active")
+      case 'contact':
+        navbarLinks[5].classList.add('link-active')
         break
       default:
         break
@@ -67,4 +67,4 @@ class Navbar extends HTMLElement {
   }
 }
 
-window.customElements.define("nav-bar", Navbar)
+window.customElements.define('nav-bar', Navbar)
