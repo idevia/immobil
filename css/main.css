@@ -22,8 +22,12 @@ img {
   border-color: #ff1d79 !important;
 }
 
-.btn {
+.btn:not(.nav-btn) {
   min-width: 210px;
+}
+
+#home-carousel .row {
+  min-height: 800px;
 }
 
 .hero {

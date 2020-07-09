@@ -38,7 +38,7 @@ const navbarTemplate = /*html*/ `
         </li>
 
         <li class="nav-item ml-4">
-          <a class="btn btn-primary" href="#">Accedi</a>
+          <a class="btn btn-primary nav-btn" href="#">Accedi</a>
         </li>
       </ul>
     </div>

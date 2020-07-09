@@ -16,6 +16,11 @@ img {
     border-color: $danger !important;
   }
 }
-.btn {
+.btn:not(.nav-btn) {
   min-width: 210px;
+}
+#home-carousel {
+  .row {
+    min-height: 800px;
+  }
 }

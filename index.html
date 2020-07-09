@@ -29,32 +29,53 @@
     <section class="section hero d-flex align-items-center">
       <img src="./assets/img/home-hero-shape.png" alt="" class="hero-img" />
       <div class="container">
-        <div class="owl-carousel">
-          <div class="item">
-            <div class="row align-items-center">
-              <div class="col-md-4">
-                <h1 class="font-weight-bold">Risparmia, rilassati.</h1>
-                <p class="slider-subtitle">
-                  Pubblica il tuo annuncio e lascia fare ad Immobilapp
-                </p>
-                <a href="#" class="btn btn-danger px-5">Scopri di più</a>
-              </div>
-              <div class="col-md-8">
-                <img src="./assets/img/hero-img.png" alt="" />
+        <div id="home-carousel" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#home-carousel" data-slide-to="0" class="active"></li>
+            <li data-target="#home-carousel" data-slide-to="1"></li>
+            <li data-target="#home-carousel" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="row align-items-center">
+                <div class="col-md-8 order-md-2 text-md-right">
+                  <img src="./assets/img/hero-img.png" alt="" />
+                </div>
+                <div class="col-md-4 order-md-1">
+                  <h1 class="font-weight-bold mt-3">Risparmia, rilassati.</h1>
+                  <p class="slider-subtitle">
+                    Pubblica il tuo annuncio e lascia fare ad Immobilapp
+                  </p>
+                  <a href="#" class="btn btn-danger px-5">Scopri di più</a>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="item">
-            <div class="row align-items-center">
-              <div class="col-md-4">
-                <h1 class="font-weight-bold">Risparmia, rilassati.</h1>
-                <p class="subtitle-subtitle">
-                  Pubblica il tuo annuncio e lascia fare ad Immobilapp
-                </p>
-                <a href="#" class="btn btn-danger px-5">Scopri di più</a>
+            <div class="carousel-item">
+              <div class="row align-items-center">
+                <div class="col-md-8 order-md-2 text-md-right">
+                  <img src="./assets/img/slide3.svg" alt="" />
+                </div>
+                <div class="col-md-4 order-md-1">
+                  <h1 class="font-weight-bold mt-3">Rendi automatico</h1>
+                  <p class="slider-subtitle">
+                    il processo di vendita o affitto del tuo immobile
+                  </p>
+                  <a href="#" class="btn btn-danger px-5">Scopri di più</a>
+                </div>
               </div>
-              <div class="col-md-8">
-                <img src="./assets/img/hero-img.png" alt="" />
+            </div>
+            <div class="carousel-item">
+              <div class="row align-items-center">
+                <div class="col-md-8 order-md-2 text-md-right">
+                  <img src="./assets/img/slide2.svg" alt="" />
+                </div>
+                <div class="col-md-4 order-md-1">
+                  <h1 class="font-weight-bold mt-3">Qui è tutto gratis!.</h1>
+                  <p class="slider-subtitle">
+                    Nessun costo per il tuo annuncio, nessuna provvigione da riconoscere
+                  </p>
+                  <a href="#" class="btn btn-danger px-5">Scopri di più</a>
+                </div>
               </div>
             </div>
           </div>
