@@ -379,6 +379,26 @@ ul.feature-list li::before {
   background-size: cover;
 }
 
+::-webkit-input-placeholder {
+  color: #d1d1d1 !important;
+  font-size: 14px;
+}
+
+:-ms-input-placeholder {
+  color: #d1d1d1 !important;
+  font-size: 14px;
+}
+
+::-ms-input-placeholder {
+  color: #d1d1d1 !important;
+  font-size: 14px;
+}
+
+::placeholder {
+  color: #d1d1d1 !important;
+  font-size: 14px;
+}
+
 /*!
  * Bootstrap v4.5.0 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors
