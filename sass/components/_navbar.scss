@@ -2,7 +2,7 @@
   text-transform: uppercase;
   position: relative;
   margin-left: 20px;
-  font-weight: bolder;
+  font-weight: 600;
   a {
     font-size: 14px;
   }
@@ -26,4 +26,9 @@
   left: 50%;
   top: 35px;
   transform: translateX(-50%);
+}
+
+
+.navbar-light .navbar-toggler {
+  border-color: transparent !important;
 }
