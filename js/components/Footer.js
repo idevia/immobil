@@ -51,7 +51,7 @@ const footerTemplate = /*html*/ `
             Kolkata, India
           </li>
           <li>
-            <h6 class="font-weight-bold">Follow us</h6>
+            <h6 class="font-weight-bold mt-4">Follow us</h6>
           </li>
         </ul>
       </div>
