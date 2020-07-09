@@ -1,110 +1,237 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css?family=Material+Icons"
-    />
-    <link rel="stylesheet" href="./css/main.css" />
-    <title>About</title>
-  </head>
-  <body>
-    <!-- navbar -->
-    <nav-bar></nav-bar>
-    <!-- /navbar -->
 
-    <section class="section py-5 dubbi">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-md-6">
-            <h2 class="font-weight-bold text-white">
-              HAI DUBBI? Leggi tutte le risposte alle tue domande
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Material+Icons" />
+  <link rel="stylesheet" href="./css/main.css" />
+  <title>About</title>
+</head>
+
+<body>
+  <!-- navbar -->
+  <nav-bar></nav-bar>
+  <!-- /navbar -->
+
+  <section class="py-5 mt-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 col-sm-12 d-flex justify-content-start align-items-center">
+          <section class="d-flex flex-column">
+            <h2 class="font-weight-bold text-center text-md-left">
+              Perchè aspettare per
+              vendere o affittare il
+              tuo immobile?
             </h2>
-            <a href="#" class="btn btn-primary px-5 mt-4">LEGGI FAQ</a>
-          </div>
-          <div class="col-md-6">
-            <img src="./assets/img/img-dubbi.png" alt="" />
-          </div>
+            <a href="#" class="btn btn-danger mt-3">Contatti</a>
+          </section>
+        </div>
+        <div class="col-md-5 offset-md-3 col-sm-12 pt-5 pt-md-0">
+          <img src="/assets/img/about.png" />
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <section class="section py-5">
-      <div class="container">
-        <div class="row">
-          <div class="col-12 text-center mb-5">
-            <h2 class="h3 font-weight-bold">Blog</h2>
-          </div>
+  <section class="py-5 my-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <h3 class="font-weight-bold">Risparmia tempo e denaro</h3>
+          <p>Pubblica il tuo annuncio e lascia lavorare la piattaforma</p>
+          <a href="#" class="btn btn-danger mt-3 px-5">PUBBLICA IL TUO ANNUNCIO</a>
+        </div>
+      </div>
+    </div>
+  </section>
 
-          <div class="col-md-6 col-lg-4">
-            <div class="card p-3" style="width: 100%;">
-              <img
-                class="card-img-top"
-                src="https://picsum.photos/536/354"
-                alt="Card image cap"
-              />
-              <div class="card-body pl-0 pr-0">
-                <h5 class="card-title">Bibendum elit lacus e</h5>
-                <p class="card-text">
-                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
-                  eirmo tempor invidunt ut labore de kostiabina..
-                </p>
-                <a href="#" class="btn btn-link text-success">Learn more</a>
+  <section>
+    <div class="container">
+      <div class="row">
+       <div class="col-md-12">
+        <div class="py-3 my-3 py-md-5 my-md-5">
+          <h3 class="font-weight-bold text-center">
+            Perchè diventare un’agenzia ImmobilApp?
+          </h3>
+          <div class="contact-merits pt-5">
+            <div class="row">
+              <div class="col-md-6">
+                <contact-card
+                  imgSrc="/assets/img/icon-01.svg"
+                  title="INCREMENTA IL TUO <br />
+              PORTAFOGLIO DI IMMOBILI"
+                  content="Accedi ad un database di annunci pubblicati solo da privati, nella tua
+              area di competenza. Gli annunci saranno verificati e pronti per la
+              trattativa. Non perdere più tempo a ricercare immobili online"
+                ></contact-card>
               </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4">
-            <div class="card p-3" style="width: 100%;">
-              <img
-                class="card-img-top"
-                src="https://picsum.photos/536/354"
-                alt="Card image cap"
-              />
-              <div class="card-body pl-0 pr-0">
-                <h5 class="card-title">Bibendum elit lacus e</h5>
-                <p class="card-text">
-                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
-                  eirmo tempor invidunt ut labore de kostiabina..
-                </p>
-                <a href="#" class="btn btn-link text-success">Learn more</a>
+              <div class="col-md-6">
+                <contact-card
+                  imgSrc="/assets/img/icon-02.svg"
+                  title="MIGLIORA LA TUA REPUTAZIONE"
+                  content="ImmobilApp offre alle sue agenzie degli strumenti innovativi, con i quali sarà possibile interagire e coordinarsi con proprietari di immobili e possibili clienti interessati Riposiziona la tua agenzia sul mercato digitale!"
+                ></contact-card>
               </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4">
-            <div class="card p-3" style="width: 100%;">
-              <img
-                class="card-img-top"
-                src="https://picsum.photos/536/354"
-                alt="Card image cap"
-              />
-              <div class="card-body pl-0 pr-0">
-                <h5 class="card-title">Bibendum elit lacus e</h5>
-                <p class="card-text">
-                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
-                  eirmo tempor invidunt ut labore de kostiabina..
-                </p>
-                <a href="#" class="btn btn-link text-success">Learn more</a>
+              <div class="col-md-6">
+                <contact-card
+                  imgSrc="/assets/img/icon-03.svg"
+                  title="PERSONALIZZA LA TUA OFFERTA"
+                  content="Presenta gli annunci immobiliari con il tuo logo ed i tuoi riferimenti, in formato digitale e tramite un’ App dedicata. Offri un’esperienza personalizzata ai tuoi clienti.. Non hai bisogno di aggiornarti: ci pensa ImmobilApp!"
+                ></contact-card>
+              </div>
+              <div class="col-md-6">
+                <contact-card
+                  imgSrc="/assets/img/icon-04.svg"
+                  title="AUMENTA LE TUE TRATTATIVE"
+                  content="Cambia il lavoro della tua agenzia! Non ricercare annunci online e non sprecare tempo utile per visite e appuntamenti. Usufruisci di un database di annunci pronti per la vendita e fai crescere il tuo business."
+                ></contact-card>
               </div>
             </div>
           </div>
         </div>
+       </div>
       </div>
-    </section>
-    <!-- footer -->
-    <site-footer></site-footer>
-    <!-- /footer -->
+    </div>
+  </section>
 
-    <!-- JS SCRIPTS -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  
+  <section class="py-5 my-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <h3 class="font-weight-bold">Non hai tempo per le visite del tuo immobile?</h3>
+          <p>ImmobilApp mette a disposizione un servizio
+            a pagamento:<br> il suo personale dedicato si occupera della realizzazione della visita del tuo immobile
+            anche in tua assenza. Scopri il servizio "Vado io all'appuntamento"
+            </p>
+          <a href="#" class="btn btn-danger mt-3 px-5">CONTATTACI</a>
+        </div>
+      </div>
+    </div>
+  </section>
 
-    <!-- WEB COMPONENTS POLYFILLS -->
-    <script src="node_modules/@webcomponents/webcomponentsjs/webcomponents-bundle.js"></script>
 
-    <!-- COMPONENTS -->
-    <script type="module" src="./js/components/Navbar.js"></script>
-    <script type="module" src="./js/components/Footer.js"></script>
-  </body>
+<section class="my-5 py-5">
+  <div class="container">
+     <div class="row">
+       <div class="col-md-12">
+        <h2 class="font-weight-bold text-center">Scopri i servizi aggiuntivi a pagamento di ImmobilApp</h2>
+       </div>
+     </div>
+      <div class="row mt-5">
+        <div class="col-md-3 col-sm-12">
+          <div class="px-5 py-5 rounded-border mt-md-0 mt-3">
+            <p class="font-weight-bold">
+              Valutazione energetica APE
+            </p>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-12">
+          <div class="px-5 py-5 rounded-border mt-md-0 mt-3">
+            <p class="font-weight-bold">
+              Book fotografico
+            </p>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-12">
+          <div class="px-5 py-5 rounded-border mt-md-0 mt-3">
+            <p class="font-weight-bold">
+              Consulenza di architetto o geometra
+            </p>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-12">
+          <div class="px-5 py-5 rounded-border mt-md-0 mt-3">
+            <p class="font-weight-bold">
+              Consulenza legale
+            </p>
+          </div>
+        </div>
+      </div>
+  </div>
+</section>
+
+  <section class="section py-5 mt-5 dubbi">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <h2 class="font-weight-bold text-white">
+            HAI DUBBI? Leggi tutte le risposte alle tue domande
+          </h2>
+          <a href="#" class="btn btn-primary px-5 mt-4">LEGGI FAQ</a>
+        </div>
+        <div class="col-md-6">
+          <img src="./assets/img/img-dubbi.png" alt="" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center mb-5">
+          <h2 class="h3 font-weight-bold">Blog</h2>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="card p-3" style="width: 100%;">
+            <img class="card-img-top" src="https://picsum.photos/536/354" alt="Card image cap" />
+            <div class="card-body pl-0 pr-0">
+              <h5 class="card-title">Bibendum elit lacus e</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+                eirmo tempor invidunt ut labore de kostiabina..
+              </p>
+              <a href="#" class="btn btn-link text-success">Learn more</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="card p-3" style="width: 100%;">
+            <img class="card-img-top" src="https://picsum.photos/536/354" alt="Card image cap" />
+            <div class="card-body pl-0 pr-0">
+              <h5 class="card-title">Bibendum elit lacus e</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+                eirmo tempor invidunt ut labore de kostiabina..
+              </p>
+              <a href="#" class="btn btn-link text-success">Learn more</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="card p-3" style="width: 100%;">
+            <img class="card-img-top" src="https://picsum.photos/536/354" alt="Card image cap" />
+            <div class="card-body pl-0 pr-0">
+              <h5 class="card-title">Bibendum elit lacus e</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+                eirmo tempor invidunt ut labore de kostiabina..
+              </p>
+              <a href="#" class="btn btn-link text-success">Learn more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- footer -->
+  <site-footer></site-footer>
+  <!-- /footer -->
+
+  <!-- JS SCRIPTS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+  <!-- WEB COMPONENTS POLYFILLS -->
+  <script src="node_modules/@webcomponents/webcomponentsjs/webcomponents-bundle.js"></script>
+
+  <!-- COMPONENTS -->
+  <script type="module" src="./js/components/Navbar.js"></script>
+  <script type="module" src="./js/components/Footer.js"></script>
+  <script type="module" src="/js/components/ContactCard.js"></script>
+</body>
+
 </html>
