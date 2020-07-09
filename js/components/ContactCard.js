@@ -4,12 +4,12 @@ const contactCardTemplate = /*html*/ `
   <div class="col-md-3 col-sm-3">
     <img class="contact-merits__card__icon" alt="" />
   </div>
-  <div class="col-md-9 col-sm-9">
+  <div class="col-md-9 col-sm-9 mt-3">
     <h5 class="contact-merits__card__title font-weight-bold">
     </h5>
   </div>
 </div>
-<p class="contact-merits__card__content mt-4">
+<p class="contact-merits__card__content mt-2">
 </p>
 </div>
 `
