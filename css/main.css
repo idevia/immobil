@@ -22,6 +22,10 @@ img {
   border-color: #ff1d79 !important;
 }
 
+.btn {
+  min-width: 210px;
+}
+
 .hero {
   min-height: calc(100vh - 58px);
   overflow: hidden;
@@ -41,21 +45,21 @@ img {
 }
 
 .idea-table-left {
-  border: 1px solid #9c9c9c;
+  border: 1px solid #c0c0c0;
 }
 
 .idea-table-left p {
-  color: #9c9c9c;
+  color: #c0c0c0;
 }
 
 .idea-table-right {
-  border-right: 1px solid #9c9c9c;
-  border-top: 1px solid #9c9c9c;
-  border-bottom: 1px solid #9c9c9c;
+  border-right: 1px solid #c0c0c0;
+  border-top: 1px solid #c0c0c0;
+  border-bottom: 1px solid #c0c0c0;
 }
 
 .idea-table-right p {
-  color: #9c9c9c;
+  color: #c0c0c0;
 }
 
 .contact-services {
@@ -93,12 +97,12 @@ img {
 
 .contact-merits__card {
   height: 300px;
-  border: 1px solid #9c9c9c;
+  border: 1px solid #c0c0c0;
   padding: 30px !important;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   border-radius: 6px;
-  margin-top: 30px;
+  margin-top: 15px;
 }
 
 .contact-merits__card h5 {
@@ -133,19 +137,13 @@ img {
     width: 60px;
     height: 60px;
   }
-  .contact-merits__card h5 {
-    font-size: 14px;
-  }
-  .contact-merits__card p {
-    font-size: 12px;
-  }
   .contact-merits__button .btn {
     padding: 10px 70px;
   }
 }
 
 .content-border {
-  border: 1px solid #9c9c9c;
+  border: 1px solid #c0c0c0;
 }
 
 .content-border h6 {
@@ -153,9 +151,9 @@ img {
 }
 
 .rounded-border {
-  border: 2px solid #9c9c9c;
+  border: 1px solid #c0c0c0;
   border-radius: 5px;
-  height: 180px;
+  height: 150px;
 }
 
 .rounded-border p {
@@ -293,7 +291,7 @@ img {
   width: 100%;
   font-size: 14px;
   border-top: 1px solid #ececec;
-  color: #9c9c9c;
+  color: #c0c0c0;
   padding: 35px;
   margin-top: 20px;
   text-decoration: underline;
@@ -316,7 +314,7 @@ img {
   text-transform: uppercase;
   position: relative;
   margin-left: 20px;
-  font-weight: bold;
+  font-weight: bolder;
 }
 
 .nav-item a {
