@@ -19,16 +19,16 @@ const navbarTemplate = /*html*/ `
     <div class="collapse navbar-collapse" id="mainNav">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item">
-          <a class="nav-link" href="./pricing.html">Proprietari</a>
+          <a class="nav-link" href="./proprietari.html">Proprietari</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="./agency.html">Agenzie</a>
+          <a class="nav-link" href="./agenzie.html">Agenzie</a>
         </li>
         <li class="nav-item">
           <a href="./pricing.html" class="nav-link">Pricing</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="./about.html">Chi siamo</a>
+          <a class="nav-link" href="./chi-siamo.html">Chi siamo</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Blog</a>
@@ -55,8 +55,17 @@ class Navbar extends HTMLElement {
     const linkLocation = linkLocationArr[linkLocationArr.length - 1].split('.')[0]
 
     switch (linkLocation) {
+      case 'proprietari':
+        navbarLinks[0].classList.add('link-active')
+        break
+      case 'agenzie':
+        navbarLinks[1].classList.add('link-active')
+        break
       case 'pricing':
         navbarLinks[2].classList.add('link-active')
+        break
+      case 'chi-siamo':
+        navbarLinks[3].classList.add('link-active')
         break
       case 'contact':
         navbarLinks[5].classList.add('link-active')

@@ -23,7 +23,7 @@ const footerTemplate = /*html*/ `
       <h6 class="font-weight-bold">Our Company</h6>
       <div class="footer__list">
         <ul>
-          <li><a href="./about.html" class="text-decoration-none">About</a></li>
+          <li><a href="./chi-siamo.html" class="text-decoration-none">Chi siamo</a></li>
           <li><a href="./faq.html" class="text-decoration-none">FAQ</a></li>
           <li>Career</li>
           <li>Blog</li>
@@ -60,7 +60,7 @@ const footerTemplate = /*html*/ `
 </div>
 
 <div class="footer__copyright">
-  <p>Copyright@ReSmart 2020</p>
+  <p>Copyright@Immobilapp 2020</p>
 </div>
 </div>
 `
