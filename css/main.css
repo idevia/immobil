@@ -195,7 +195,7 @@ p {
 
 .promo-banner .promo-banner__title {
   font-size: 20px;
-  margin-bottom: 15px;
+  margin-bottom: 12px;
 }
 
 .promo-banner p {
@@ -204,9 +204,9 @@ p {
 
 .pricing__card {
   background-color: #0b469b;
-  height: 280px;
+  height: 260px;
   color: white;
-  padding-top: 40px;
+  padding-top: 30px;
   border-radius: 8px;
   position: relative;
   overflow: hidden;
@@ -222,15 +222,15 @@ p {
 }
 
 .pricing__card h2 {
-  letter-spacing: 8px;
-  font-size: 40px;
+  font-weight: bold;
+  font-size: 35px;
 }
 
 .pricing__card__label {
   position: absolute;
   background-color: #fbb136;
-  width: 200px;
-  height: 100px;
+  width: 190px;
+  height: 85px;
   bottom: -15px;
   left: -80px;
   -webkit-transform: rotate(45deg);
@@ -239,7 +239,7 @@ p {
 
 .pricing__card__label h4 {
   font-size: 20px;
-  margin-left: 90px;
+  margin-left: 89px;
   margin-top: 15px;
 }
 
@@ -250,6 +250,21 @@ p {
 @media screen and (max-width: 480px) {
   .promo-banner .promo-banner__title {
     font-size: 16px;
+  }
+  .promo-banner__label {
+    position: absolute;
+    width: 135px;
+    height: 60px;
+    right: -50px;
+    top: -20px;
+    -webkit-transform: rotate(43deg);
+    transform: rotate(43deg);
+    background-color: #0b469b;
+  }
+  .promo-banner__label h6 {
+    margin-top: 40px;
+    margin-left: 10px;
+    font-size: 12px;
   }
 }
 
@@ -340,6 +355,10 @@ p {
   top: 35px;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
+}
+
+.navbar-light .navbar-toggler {
+  border-color: transparent !important;
 }
 
 ul.feature-list {

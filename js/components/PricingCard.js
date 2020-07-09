@@ -1,13 +1,13 @@
 const pricingCard = /*html*/ `
-<div class="pricing__card mt-md-0 mt-3">
+<div class="pricing__card mt-md-0 mt-2">
   <div class="pricing__card__period text-center py-3">
-    <h4></h4>
+    <h4 class="font-weight-bold"></h4>
     <p class="text-white"></p>
   </div>
-  <h2 class="text-center pt-4 pb-1"></h2>
+  <h2 class="text-center pt-4"></h2>
   <p class="price__subtitle text-center text-white"></p>
   <div class="pricing__card__label">
-    <h4 class="font-weight-bold"></h4>
+    <h4 class="font-weight-bold" style="font-size: 16px"></h4>
   </div>
 </div>
 `
