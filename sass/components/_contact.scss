@@ -5,9 +5,7 @@
 
   ul {
     list-style: none;
-    li {
-      font-size: 18px;
-    }
+  
     li::before {
       content: "";
       width: 10px;
@@ -51,9 +49,6 @@
 
   .contact-services {
     ul {
-      li {
-        font-size: 12px;
-      }
       li::before {
         width: 8px;
         height: 8px;
