@@ -26,6 +26,10 @@ img {
   min-width: 210px;
 }
 
+p {
+  color: #606060 !important;
+}
+
 .hero {
   min-height: calc(100vh - 58px);
   overflow: hidden;
@@ -45,21 +49,22 @@ img {
 }
 
 .idea-table-left {
-  border: 1px solid #c0c0c0;
+  border: 1px solid #dfdfdf;
 }
 
 .idea-table-left p {
-  color: #c0c0c0;
+  color: #dfdfdf;
 }
 
 .idea-table-right {
-  border-right: 1px solid #c0c0c0;
-  border-top: 1px solid #c0c0c0;
-  border-bottom: 1px solid #c0c0c0;
+  border-right: 1px solid #dfdfdf;
+  border-top: 1px solid #dfdfdf;
+  border-bottom: 1px solid #dfdfdf;
+  border-left: 1px solid #dfdfdf;
 }
 
 .idea-table-right p {
-  color: #c0c0c0;
+  color: #dfdfdf;
 }
 
 .contact-services {
@@ -97,7 +102,7 @@ img {
 
 .contact-merits__card {
   height: 300px;
-  border: 1px solid #c0c0c0;
+  border: 1px solid #dfdfdf;
   padding: 30px !important;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -143,7 +148,7 @@ img {
 }
 
 .content-border {
-  border: 1px solid #c0c0c0;
+  border: 1px solid #dfdfdf;
 }
 
 .content-border h6 {
@@ -151,7 +156,7 @@ img {
 }
 
 .rounded-border {
-  border: 1px solid #c0c0c0;
+  border: 1px solid #dfdfdf;
   border-radius: 5px;
   height: 150px;
 }
@@ -260,7 +265,7 @@ img {
 }
 
 .footer__logo {
-  padding: 30px 0 50px 0;
+  padding: 30px 0 30px 0;
 }
 
 .footer__logo img {
@@ -269,7 +274,8 @@ img {
 }
 
 .footer h6 {
-  margin-bottom: 30px;
+  margin-bottom: 10px;
+  margin-top: 20px;
 }
 
 .footer__list ul {
@@ -277,7 +283,7 @@ img {
 }
 
 .footer__list li {
-  margin-top: 15px;
+  margin-top: 10px;
   list-style-type: none;
   font-size: 14px;
   color: grey;
@@ -291,7 +297,7 @@ img {
   width: 100%;
   font-size: 14px;
   border-top: 1px solid #ececec;
-  color: #c0c0c0;
+  color: #dfdfdf;
   padding: 35px;
   margin-top: 20px;
   text-decoration: underline;
