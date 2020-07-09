@@ -8,6 +8,20 @@ img {
   cursor: pointer;
 }
 
+.form-control-minimal {
+  background: transparent;
+  border-radius: 0 !important;
+  border: 0 !important;
+  border-bottom: 1px solid #e5e5e5 !important;
+  padding-left: 0 !important;
+}
+
+.form-control-minimal:focus {
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+  border-color: #ff1d79 !important;
+}
+
 .hero {
   min-height: calc(100vh - 58px);
   overflow: hidden;
@@ -356,6 +370,11 @@ ul.feature-list li::before {
 
 .dubbi {
   background: url(../../assets/img/dubbi-bg.png) center center no-repeat;
+  background-size: cover;
+}
+
+.contact-form {
+  background: url(../../assets/img/contact-form-bg.png) center center no-repeat;
   background-size: cover;
 }
 
