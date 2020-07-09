@@ -83,10 +83,6 @@ p {
   list-style: none;
 }
 
-.contact-services ul li {
-  font-size: 18px;
-}
-
 .contact-services ul li::before {
   content: "";
   width: 10px;
@@ -124,9 +120,6 @@ p {
   }
   h3 {
     font-size: 18px !important;
-  }
-  .contact-services ul li {
-    font-size: 12px;
   }
   .contact-services ul li::before {
     width: 8px;
