@@ -381,7 +381,8 @@ ul.feature-list li::before {
 }
 
 .are-you-agency {
-  background-color: #c9e6ff;
+  background: url(../../assets/img/contact-form-bg.png) center center no-repeat;
+  background-size: cover;
 }
 
 .dubbi {

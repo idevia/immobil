@@ -13,9 +13,9 @@ const footerTemplate = /*html*/ `
       <h6 class="font-weight-bold">Contact Us</h6>
       <div class="footer__list">
         <ul>
-          <li>+(290) 520-7927</li>
-          <li>Bangalore India</li>
-          <li>idevia.in</li>
+          <li><a href="tel:+390690258948">(+39) 069-025-8948</a></li>
+          <li><a href="mailto:info@immobilapp.it">info@immobilapp.it</a></li>
+          <li>P.IVA: 15501131005</li>
         </ul>
       </div>
     </div>
@@ -47,12 +47,12 @@ const footerTemplate = /*html*/ `
       <div class="footer__list">
         <ul>
           <li>
-            Idevia Tech Private Limited<br />
-            Kolkata, India
+            Immobilapp di MPM srl<br />
+            Via G. Zanardelli 5, 00186 - Roma
           </li>
-          <li>
+          <!--<li>
             <h6 class="font-weight-bold mt-4">Follow us</h6>
-          </li>
+          </li>-->
         </ul>
       </div>
     </div>
@@ -60,7 +60,7 @@ const footerTemplate = /*html*/ `
 </div>
 
 <div class="footer__copyright">
-  <p>Copyright@Immobilapp 2020</p>
+  <p>Copyright @2020 Immobilapp</p>
 </div>
 </div>
 `
