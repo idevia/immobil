@@ -38,7 +38,7 @@ const navbarTemplate = /*html*/ `
         </li>
 
         <li class="nav-item ml-4">
-          <a class="btn btn-primary nav-btn" href="#">Accedi</a>
+          <a class="btn btn-primary nav-btn" href="https://app.immobilapp.it/">Accedi</a>
         </li>
       </ul>
     </div>

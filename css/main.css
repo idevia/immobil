@@ -335,7 +335,7 @@ p {
   font-size: 14px;
 }
 
-.nav-item .btn {
+.nav-item .navbar-toggler {
   padding: 10px 35px;
   font-size: 14px;
 }
@@ -345,7 +345,7 @@ p {
 }
 
 .link-active::after {
-  content: "";
+  content: '';
   width: 8px;
   height: 8px;
   position: absolute;

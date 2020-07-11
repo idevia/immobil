@@ -6,7 +6,7 @@
   a {
     font-size: 14px;
   }
-  .btn {
+  .navbar-toggler {
     padding: 10px 35px;
     font-size: 14px;
   }
@@ -17,7 +17,7 @@
 }
 
 .link-active::after {
-  content: "";
+  content: '';
   width: 8px;
   height: 8px;
   position: absolute;
@@ -27,7 +27,6 @@
   top: 35px;
   transform: translateX(-50%);
 }
-
 
 .navbar-light .navbar-toggler {
   border-color: transparent !important;
