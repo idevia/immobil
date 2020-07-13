@@ -34,11 +34,8 @@ const footerTemplate = /*html*/ `
       <h6 class="font-weight-bold">Social Contacts</h6>
       <div class="footer__list">
         <ul>
-          <li>Facebook</li>
-          <li>Linked in</li>
-          <li>Youtube</li>
-          <li>Vimeo</li>
-          <li>Skype</li>
+          <li><a href="https://facebook.com/Immobilapp" target="_blank" class="text-decoration-none">Facebook</a<</li>
+          <li><a href="https://instagram.com/immobilapp" target="_blank" class="text-decoration-none">Instagram</a<</li>
         </ul>
       </div>
     </div>
