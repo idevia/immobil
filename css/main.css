@@ -415,6 +415,11 @@ ul.feature-list li::before {
   font-size: 14px;
 }
 
+.store-badges img {
+  max-height: 50px;
+  margin: 5px;
+}
+
 /*!
  * Bootstrap v4.5.0 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors
