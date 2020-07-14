@@ -31,9 +31,6 @@ const navbarTemplate = /*html*/ `
           <a class="nav-link" href="./chi-siamo.html">Chi siamo</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Blog</a>
-        </li>
-        <li class="nav-item">
           <a href="./contatti.html" class="nav-link">Contatti</a>
         </li>
 
@@ -68,7 +65,7 @@ class Navbar extends HTMLElement {
         navbarLinks[3].classList.add('link-active')
         break
       case 'contatti':
-        navbarLinks[5].classList.add('link-active')
+        navbarLinks[4].classList.add('link-active')
         break
       default:
         break
